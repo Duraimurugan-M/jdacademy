@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Title of Web Page -->
+    <title>CSS Page | JD Academy</title>
+
+    <!-- Icon for Web Page -->
+    <link rel="icon" href="css-icon.png">
+
+    <!-- FontAwsome Link -->
+    <script src="https://kit.fontawesome.com/38ec2c4556.js" crossorigin="anonymous"></script>
+
+    <!-- Google FOnts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap" rel="stylesheet">
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="nav-bar">
+        <!-- Academy Name icon and Name -->
+              <a href="index.html"> <i id="clg-icon" class="fa-solid fa-graduation-cap"> <h1 class="nav-name">JD Academy </h1></i>
+        </a>
+        <i id="nav-icon" class="fa-solid fa-bars"></i>
+        <!-- Un-order List for Nav Bar Options -->
+        <ul>
+          <a href="index.html"> <li class="unactive"> <i class="fa-solid fa-house"></i> HOME</li> </a>
+          <a href="html.html"> <li class="unactive"><i class="fa-brands fa-html5"></i> HTML</li> </a>
+          <a href="css.html"> <li class="active"><i class="fa-brands fa-css3-alt"></i> CSS</li> </a>
+          <a href="js.html"> <li class="unactive"><i class="fa-brands fa-js"></i> JAVASCRIPT</li> </a>
+        </ul>
+    </nav>
+
+    <div class="top-nav-bar">
+        <input type="text" placeholder=" Welcome to JD Academy... " spellcheck="true">
+    </div>
+
+    <div class="css-content">
+        <h1 class="css-content-h1">Welcome to JD Academy - Unleashing the Power of Front-End Magic!</h1>
+
+        <p class="css-content-head-para"> <strong> Welcome to the HTML section of JD Academy! In this module, you'll embark on a journey to master the fundamental language of the web—HTML. As the backbone of every web page, HTML allows you to structure content and create a seamless browsing experience for users. </strong> </p>
+
+        <img class="css-logo" src="css-logo.jpg" alt="This is CSS image">
+
+        <h1 class="css-content-head-title">CSS (Cascading Style Sheets)</h1>
+
+        <h2 class="css-content-h2">History:</h2>
+
+        <ul class="css-h-e-para-ul">
+            <li class="css-h-e-para-li">
+                 <p class="css-content-h-e-para"><strong>Early Styling (1996-1997):</strong>  The need for a separate styling language led to the development of CSS. CSS1 was introduced in 1996-1997.</p>
+            </li>
+
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>CSS2 (1998):</strong> This version expanded CSS capabilities, introducing features like absolute, relative positioning, and media types.</p>
+            </li>
+
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>CSS3 (2001-present):</strong> Rather than being a single specification, CSS3 is a collection of individual modules introduced progressively. It includes features like animations, transitions, and responsive design.</p>
+            </li>
+        </ul>
+
+        <h2 class="css-content-h2">Evaluation:</h2>
+
+        <h3 class="css-content-h3">Advantages:</h3>
+
+        <ul class="css-h-e-para-ul">
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>Separation of Concerns:</strong> CSS allows the separation of content and presentation, making code more maintainable.</p>
+            </li>
+
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>Consistency:</strong> Styles can be applied consistently across multiple pages.</p>
+            </li>
+
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>Adaptability</strong> CSS3 introduced a range of features for responsive design and modern styling.</p>
+            </li>
+        </ul>
+
+        <h3 class="css-content-h3">Challenges:</h3>
+
+        <ul class="css-h-e-para-ul">
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>Browser Compatibility:</strong>  Ensuring consistent rendering across different browsers can be challenging.</p>
+            </li>
+
+            <li class="css-h-e-para-li">
+                <p class="css-content-h-e-para"><strong>Learning Curve:</strong>  Mastering CSS, especially advanced features, can be complex for beginners.</p>
+            </li>
+        </ul>
+
+        <h2 class="css-content-h2">Chapter 1: Getting Started with CSS</h2>
+
+        <h3 class="css-content-h3">Section 1.1: Introduction to CSS</h3>
+
+        <h2 class="css-content-h2">Definition:</h2>
+
+        <p class="css-content-para">CSS, or Cascading Style Sheets, is a language used to describe the visual presentation of a document written in HTML.
+            <br> <br>
+         It defines how elements should be styled, ensuring a consistent and appealing design across web pages.</p>
+
+         <h2 class="css-content-h2">Why CSS ?</h2>
+
+         <p class="css-content-para">Understanding the role of CSS in separating content and presentation. <br> <br> The benefits of modularizing styles for easier maintenance.</p>
+
+         <h2 class="css-content-h2">Setting Up Your Stylesheet:</h2>
+
+         <p class="css-content-para">Exploring different methods to include CSS in your HTML document—inline, internal, and external stylesheets.</p>
+
+            <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+            &lt;!DOCTYPE html&gt;
+            <br>
+            &lt;html lang="en"&gt;
+            <br>
+            &lt;head&gt;
+            <br>
+            &lt;meta charset="UTF-8"&gt;
+            <br>
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            <br>
+            &lt;title&gt;My Awesome Website&lt;/title&gt;
+            <br>
+            &lt;style&gt;
+            <br>
+                body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                }
+                <br>
+                h1 {
+                color: #008080;
+                }
+                <br>
+            &lt;/style&gt;
+            <br>
+            &lt;/head&gt;
+            <br>
+            &lt;body&gt;
+            <br>
+            &lt;h1&gt;Welcome to My Awesome Website&lt;/h1&gt;
+            <br>
+            &lt;p&gt;This is a simple example to demonstrate CSS integration.&lt;/p&gt;
+            <br>
+            &lt;/body&gt;
+            <br>
+            &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm2wbnq" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 1.2: Selectors and Properties</h3>
+
+        <h2 class="css-content-h2">Selectors:</h2>
+
+        <p class="css-content-para">Learning about various selectors to target HTML elements for styling. <br> <br> Covering basic selectors, class selectors, ID selectors, and descendant selectors.</p>
+
+        <h2 class="css-content-h2">Properties:</h2>
+
+        <p class="css-content-para">A deep dive into common CSS properties such as  <strong> 'color'</strong>, <strong> 'font-size'</strong>,  <strong> 'margin'</strong>, <strong> 'padding'</strong>, and their impact on element styling.</p>
+
+          <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Selectors and Properties&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Basic Selector */
+            <br>
+            p {
+              font-size: 16px;
+              color: #333;
+            }
+            <br>
+
+            /* Class Selector */
+            <br>
+            .highlight {
+              background-color: #ffeeba;
+            }
+            <br>
+        
+            /* ID Selector */
+            <br>
+            #header {
+              font-size: 24px;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;p&gt;This is a basic paragraph.&lt;/p&gt;
+          <br>
+          &lt;p class="highlight"&gt;This paragraph has a highlight class.&lt;/p&gt;
+          <br>
+          &lt;h2 id="header"&gt;This is a header with an ID.&lt;/h2&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm3pvam" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 1.3: The Cascade and Specificity</h3>
+
+        <h2 class="css-content-h2">Cascading Principle:</h2>
+
+        <p class="css-content-para">Understanding how styles cascade and how to resolve conflicts. Exploring the importance of order, importance, specificity, and inheritance.</p>
+
+        <h2 class="css-content-h2">Specificity:</h2>
+
+        <p class="css-content-para">Grasping the concept of specificity and how it determines which styles take precedence in complex scenarios.</p>
+
+        <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Cascade and Specificity&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Specificity Example */
+            <br>
+            body p {
+                <br>
+              color: #008080; /* More specific than just p selector */
+            }
+            <br>
+        
+            /* Importance Example */
+            <br>
+            h1 {
+                <br>
+              color: red !important; /* Overrides other styles with higher specificity */
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;p&gt;This paragraph inherits styles from the body.&lt;/p&gt;
+          <br>
+          &lt;h1&gt;This heading has important styles.&lt;/h1&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm47s72" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+    <h2 class="css-content-h2">Chapter 2: Box Model and Layout</h2>
+
+    <h3 class="css-content-h3">Section 2.1: Understanding the Box Model</h3>
+
+    <h2 class="css-content-h2">Components of the Box Model:</h2>
+
+    <p class="css-content-para">Breaking down the box model into <strong> 'content'</strong>, <strong> 'padding'</strong>, <strong> 'border'</strong>, and <strong> 'margin'</strong>. How each component affects the overall layout.</p>
+
+    <h2 class="css-content-h2">Box Sizing:</h2>
+
+    <p class="css-content-para">The difference between  <strong> 'box-sizing: content-box'</strong> and <strong> 'box-sizing: border-box'</strong> and how it influences element dimensions.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Box Model and Box Sizing&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Box Model Example */
+            <br>
+            .box {
+              width: 200px;
+              padding: 20px;
+              border: 1px solid #ccc;
+              margin: 10px;
+            }
+            <br>
+        
+            /* Box Sizing Example */
+            <br>
+            .border-box {
+              box-sizing: border-box;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="box"&gt;This is a box with the box model.&lt;/div&gt;
+          <br>
+          &lt;div class="box border-box"&gt;This is a box with border-box sizing.
+          <br>
+          &lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm4uzfz" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 2.2: Flexbox Layout</h3>
+
+        <h2 class="css-content-h2">Introduction to Flexbox:</h2>
+
+        <p class="css-content-para">Exploring the Flexbox layout model for one-dimensional layouts. Understanding the concepts of flex containers and flex items.</p>
+
+        <h2 class="css-content-h2">Flex Properties:</h2>
+
+        <p class="css-content-para">Key properties like  <strong>'flex-direction'</strong>, <strong> 'justify-content'</strong>, <strong> 'align-items'</strong>, and  <strong>'flex'</strong> to create flexible and responsive designs.</p>
+
+        <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Flexbox Layout&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Flex Container Example */
+            <br>
+            .flex-container {
+              display: flex;
+              justify-content: space-between;
+            }
+            <br>
+        
+            /* Flex Item Example */
+            <br>
+            .flex-item {
+              flex: 1;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="flex-container"&gt;
+          <br>
+            &lt;div class="flex-item"&gt;Item 1&lt;/div&gt;
+            <br>
+            &lt;div class="flex-item"&gt;Item 2&lt;/div&gt;
+            <br>
+            &lt;div class="flex-item"&gt;Item 3&lt;/div&gt;
+            <br>
+          &lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+        <br>
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm5aefp" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+    <h3 class="css-content-h3">Section 2.3: CSS Grid Layout</h3>
+
+    <h2 class="css-content-h2">Grid Basics:</h2>
+
+    <p class="css-content-para">Introducing the two-dimensional layout system with CSS Grid. Understanding the grid container and grid items.</p>
+
+    <h2 class="css-content-h2">Grid Properties:</h2>
+
+    <p class="css-content-para">Exploring properties like <strong> 'grid-template-columns'</strong>, <strong> 'grid-template-rows'</strong>, and <strong> 'grid-gap'</strong> for creating versatile layouts.</p>
+
+        <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Grid Layout&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Grid Container Example */
+            <br>
+            .grid-container {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-gap: 20px;
+            }
+            <br>
+        
+            /* Grid Item Example */
+            <br>
+            .grid-item {
+              grid-column: span 2;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="grid-container"&gt;
+          <br>
+            &lt;div class="grid-item"&gt;Item 1&lt;/div&gt;
+            <br>
+            &lt;div class="grid-item"&gt;Item 2&lt;/div&gt;
+            <br>
+            &lt;div class="grid-item"&gt;Item 3&lt;/div&gt;
+            <br>
+            &lt;div class="grid-item"&gt;Item 4&lt;/div&gt;
+            <br>
+            &lt;div class="grid-item"&gt;Item 5&lt;/div&gt;
+            <br>
+            &lt;div class="grid-item"&gt;Item 6&lt;/div&gt;
+            <br>
+          &lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm5wvuk" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h2 class="css-content-h2">Chapter 3: Responsive Design and Media Queries</h2>
+
+        <h3 class="css-content-h3">Section 3.1: Responsive Design Principles</h3>
+
+        <h2 class="css-content-h2">Mobile-First Approach:</h2>
+
+        <p class="css-content-para">Embracing the mobile-first design philosophy and its advantages. Starting with a small screen design and progressively enhancing for larger screens.</p>
+
+        <h2 class="css-content-h2">Viewport Meta Tag:</h2>
+
+        <p class="css-content-para">Understanding the role of the viewport meta tag in making web pages responsive.</p>
+
+        <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Responsive Design&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Mobile Styles */
+            <br>
+            body {
+              font-size: 14px;
+            }
+            <br>
+            /* Desktop Styles (Media Query) */
+            <br>
+            @media screen and (min-width: 600px) {
+              body {
+                font-size: 16px;
+              }
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;p&gt;This is a responsive paragraph.&lt;/p&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm6e3sb" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+    <h3 class="css-content-h3">Section 3.2: Media Queries</h3>
+
+    <h2 class="css-content-h2">Introduction to Media Queries:</h2>
+
+    <p class="css-content-para">Writing media queries to apply specific styles based on device characteristics such as screen width, height, and orientation.</p>
+
+    <h2 class="css-content-h2">Breakpoints:</h2>
+
+    <p class="css-content-para">Defining breakpoints and adjusting styles for different screen sizes.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Media Queries&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Default Styles */
+            <br>
+
+            /* Tablet Styles (Media Query) */
+            <br>
+            @media screen and (min-width: 600px) {
+              /* Styles for tablets and larger screens */
+            }
+            <br>
+        
+            /* Desktop Styles (Media Query) */
+            <br>
+            @media screen and (min-width: 1024px) {
+              /* Styles for desktop screens */
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;p&gt;This is a paragraph with media queries.
+          &lt;/p&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm6radp" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h2 class="css-content-h2">Chapter 4: Transitions and Animations</h2>
+
+        <h3 class="css-content-h3">Section 4.1: CSS Transitions</h3>
+
+        <h2 class="css-content-h2">Transition Basics:</h2>
+
+        <p class="css-content-para">Introduction to transitions and how they smoothly animate changes in property values over a specified duration</p>
+
+        <h2 class="css-content-h2">Transition Properties:</h2>
+
+        <p class="css-content-para">Exploring properties like <strong>'transition-property'</strong>, <strong>'transition-duration'</strong>, and <strong>'transition-timing-function'</strong>.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Transitions&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Transition Example */
+            <br>
+            button {
+              transition: background-color 0.3s ease;
+            }
+            <br>
+        
+            button:hover {
+              background-color: #008080;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;button&gt;Hover Me&lt;/button&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm7bhdv" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 4.2: CSS Animations</h3>
+
+        <h2 class="css-content-h2">Keyframes Animation:</h2>
+
+        <p class="css-content-para">Creating animations using keyframes to define stages of motion.</p>
+
+        <h2 class="css-content-h2">Animation Properties:</h2>
+
+        <p class="css-content-para">Understanding properties like <strong> 'animation-name'</strong>, <strong> 'animation-duration'</strong>, and <strong> 'animation-delay'</strong>.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Animations&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Keyframes Animation Example */
+            <br>
+            @keyframes slideIn {
+                <br>
+              from {
+                transform: translateX(-100%);
+              }
+              <br>
+              to {
+                transform: translateX(0);
+              }
+              <br>
+            }
+            <br>
+        
+            .animated-element {
+              animation: slideIn 1s ease-in-out;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="animated-element"&gt;This element slides in.
+          <br>&lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm7v3rj" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h2 class="css-content-h2">Chapter 5: Advanced CSS Topics</h2>
+
+        <h3 class="css-content-h3">Section 5.1: CSS Variables</h3>
+
+        <h2 class="css-content-h2">Introduction to CSS Variables:</h2>
+
+        <p class="css-content-para">Exploring the power of CSS variables for creating reusable values. How to declare and use variables in your stylesheets.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Variables&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* CSS Variables Example */
+            <br>
+            :root {
+              --primary-color: #3498db;
+            }
+            <br>
+        
+            .button {
+              background-color: var(--primary-color);
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;button class="button"&gt;Click Me&lt;/button&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm869kp" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 5.2: CSS Filters and Blend Modes</h3>
+
+        <h2 class="css-content-h2">Filter Effects:</h2>
+
+        <p class="css-content-para">Applying filter effects such as blur, brightness, and contrast to elements.</p>
+
+        <h2 class="css-content-h2">Blend Modes:</h2>
+
+        <p class="css-content-para">Understanding blend modes for creative and visually appealing designs.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Filters and Blend Modes&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Filter Effects Example */
+            <br>
+            .blurred-image {
+              filter: blur(5px);
+            }
+            <br>
+        
+            /* Blend Modes Example */
+            <br>
+            .overlay {
+              mix-blend-mode: overlay;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;img src="image.jpg" alt="Blurred Image" class="blurred-image"&gt;
+          <br>
+          &lt;div class="overlay"&gt;This text has an overlay blend mode.
+          <br>&lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm9h682" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 5.3: CSS Grid and Subgrid</h3>
+
+        <h2 class="css-content-h2">Subgrid:</h2>
+
+        <p class="css-content-para">An in-depth look at the subgrid feature in CSS Grid, enabling nested grid structures.</p>
+
+        <h2 class="css-content-h2">Grid Layout Techniques:</h2>
+
+        <p class="css-content-para">Advanced grid layout techniques for complex and responsive designs.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Grid and Subgrid&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* CSS Subgrid Example */
+            <br>
+            .grid-container {
+                <br>
+              display: grid;
+              <br>
+              grid-template-columns: repeat(2, 1fr);
+              <br>
+              grid-gap: 20px;
+              <br>
+            }
+            <br>
+        
+            .nested-grid {
+              display: grid;
+              grid-template-columns: subgrid;
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="grid-container"&gt;
+          <br>
+            &lt;div class="nested-grid"&gt;Item 1&lt;/div&gt;
+            <br>
+            &lt;div class="nested-grid"&gt;Item 2&lt;/div&gt;
+            <br>
+            &lt;div class="nested-grid"&gt;Item 3&lt;/div&gt;
+            <br>
+            &lt;div class="nested-grid"&gt;Item 4&lt;/div&gt;
+            <br>
+          &lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrm9uqd4" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 5.4: Custom Properties and Mixins</h3>
+
+        <h2 class="css-content-h2">Custom Properties:</h2>
+
+        <p class="css-content-para">Going beyond variables—how custom properties can be used for more dynamic styling.</p>
+
+        <h2 class="css-content-h2">Mixins:</h2>
+
+        <p class="css-content-para">Understanding mixins and how they contribute to maintainable and modular styles.</p>
+
+    <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Custom Properties and Mixins&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Custom Properties Example */
+            <br>
+            :root {
+              --primary-color: #3498db;
+            }
+            <br>
+        
+            .button {
+              background-color: var(--primary-color);
+            }
+            <br>
+        
+            /* Mixins Example */
+            <br>
+            @mixin border-radius($radius) {
+              border-radius: $radius;
+            }
+            <br>
+        
+            .rounded-element {
+              @include border-radius(10px);
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;button class="button"&gt;Click Me&lt;/button&gt;
+          <br>
+          &lt;div class="rounded-element"&gt;This element has rounded corners.&lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrma74cr" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h2 class="css-content-h2">Chapter 6: Best Practices and Optimization</h2>
+
+        <h3 class="css-content-h3">Section 6.1: CSS Best Practices</h3>
+
+        <h2 class="css-content-h2">Clean and Maintainable Code:</h2>
+
+        <p class="css-content-para">Strategies for writing clean, readable, and maintainable CSS code. The importance of consistent formatting and organization.</p>
+
+        <h2 class="css-content-h2">Performance Optimization:</h2>
+
+        <p class="css-content-para">Techniques for optimizing CSS performance, including minimizing file size and reducing render times.</p>
+
+        <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;CSS Best Practices&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Best Practices Example */
+            <br>
+            /* Be consistent with indentation and spacing */
+            <br>
+            .element {
+                <br>
+              margin: 10px;
+              <br>
+              padding: 5px;
+              <br>
+            }
+            <br>
+        
+            /* Performance Optimization Example */
+            <br>
+            .large-image {
+                <br>
+              background: url('large-image.jpg') no-repeat;
+              <br>
+              background-size: cover;
+              <br>
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="element"&gt;This is an example of clean code.&lt;/div&gt;
+          <br>
+          &lt;div class="large-image"&gt;This is an example of optimized image usage.&lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrmahvme" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <h3 class="css-content-h3">Section 6.2: Cross-Browser Compatibility</h3>
+
+        <h2 class="css-content-h2">Browser Prefixes:</h2>
+
+        <p class="css-content-para">Dealing with vendor prefixes for compatibility across different browsers.</p>
+
+        <h2 class="css-content-h2">Feature Queries:</h2>
+
+        <p class="css-content-para">Using feature queries to apply styles based on browser support for specific CSS features.</p>
+
+        <div class="code-content">
+
+            <nav class="code-nav">
+                <h2>Example:</h2>
+            </nav>
+
+        <code class="css-content-code">
+
+            &lt;!DOCTYPE html&gt;
+            <br>
+        &lt;html lang="en"&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+          &lt;meta charset="UTF-8"&gt;
+          <br>
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          <br>
+          &lt;title&gt;Cross-Browser Compatibility&lt;/title&gt;
+          <br>
+          &lt;style&gt;
+          <br>
+            /* Browser Prefixes Example */
+            <br>
+            .box {
+                <br>
+              -webkit-box-shadow: 0px 0px 10px #000;
+              <br>
+              box-shadow: 0px 0px 10px #000;
+              <br>
+            }
+            <br>
+        
+            /* Feature Queries Example */
+            <br>
+            @supports (display: grid) {
+                <br>
+              .grid-layout {
+                <br>
+                display: grid;
+                <br>
+              }
+              <br>
+            }
+            <br>
+          &lt;/style&gt;
+          <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+          &lt;div class="box"&gt;This box has a shadow with browser prefixes.&lt;/div&gt;
+          <br>
+          &lt;div class="grid-layout"&gt;This layout uses grid with feature queries.&lt;/div&gt;
+          <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+
+        </code>
+
+        <nav class="code-nav">
+            <a href="https://onecompiler.com/html/3zrmawe2v" target="_blank">
+           <button> Try it Yourself</button>
+           </a>
+        </nav>
+    </div>
+
+        <div class="css-book-div">
+            <h1 class="css-content-h1">Download CSS Book Now</h1>
+
+            <h1 class="css-content-h1">CSS </h1>
+
+            <h2 class="css-content-h2">Notes for Professionals</h2>
+
+            <img class="css-book-logo" src="CSS.png" alt="This is CSS book">
+            <br>
+            <a href="The CSS Handbook.pdf" download>
+            <button>Download Now</button>
+            </a>
+        </div>
+
+        <div class="css-yt-channel-div">
+            <h1 class="css-content-h1">YouTube Channels To learn CSS:</h1>
+            <ul class="css-yt-channel-name-ul">
+                <li class="css-yt-channel-name-li"> <a href="https://www.youtube.com/@ErrorMakesClever" target="_blank"> Error Makes Clever Academy </a></li>
+                <li class="css-yt-channel-name-li"> <a href="https://www.youtube.com/@tutorjoes" target="_blank"> Tutor Joe's Stanley </a></li>
+                <li class="css-yt-channel-name-li"> <a href="https://www.youtube.com/@TamilHacks20" target="_blank"> Tamil Hacks 2.0 </a></li>
+            </ul>
+        </div>
+
+        <div class="css-yt-channel-vid-div">
+            <h1 class="css-content-h1">Channel's for CSS Videos</h1>
+
+            <h2 class="css-content-h2">Error Makes Clever Academy :</h2>
+
+            <iframe width="800" height="400" src="https://www.youtube.com/embed/vfs1wBDoqBY?si=3EqYriL2q9kCNy3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h2 class="css-content-h2">Key Points:</h2>
+
+            <ul class="css-yt-channel-vid-ul-kp">
+                <li class="css-yt-channel-vid-li-kp">Tutorial Focus: CSS tutorial for beginners in Tamil on YouTube.</li>
+                <li class="css-yt-channel-vid-li-kp">CSS Introduction: Purpose of CSS in styling and formatting web pages.</li>
+                <li class="css-yt-channel-vid-li-kp">CSS Types: Explanation of three CSS types: inline, internal, and external.</li>
+                <li class="css-yt-channel-vid-li-kp">Styling Demo: Practical demonstration of CSS using background colors, height, and padding.</li>
+                <li class="css-yt-channel-vid-li-kp">Webpage Creation: Step-by-step creation of a webpage layout with header, products, about, and contact sections.</li>
+            </ul>
+
+            <h2 class="css-content-h2">Highlights:</h2>
+
+            <ul class="css-yt-channel-vid-ul-hl">
+                <li class="css-yt-channel-vid-li-hl">Hands-On Learning: Practical demonstration provides a hands-on approach for beginners.</li>
+                <li class="css-yt-channel-vid-li-hl">Webpage Structure: Emphasis on creating a structured webpage layout.</li>
+                <li class="css-yt-channel-vid-li-hl">Visual Styling: Use of background colors, height, and padding for visual appeal.</li>
+                <li class="css-yt-channel-vid-li-hl">Real-Life Example: Application of CSS to create specific sections like products and contact.</li>
+                <li class="css-yt-channel-vid-li-hl">Language Inclusivity: Tutorial conducted in Tamil for accessibility to a broader audience.</li>
+            </ul>
+
+            <h2 class="css-content-h2">Tutor Joe's Stanley :</h2>
+
+            <iframe width="800" height="400" src="https://www.youtube.com/embed/8xpEuu0s1A4?si=Fg0c0THcu-PGIDg7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h2 class="css-content-h2">Key Points:</h2>
+
+            <ul class="css-yt-channel-vid-ul-kp">
+                <li class="css-yt-channel-vid-li-kp">Tutorial Focus: CSS tutorial for beginners in Tamil on YouTube.</li>
+                <li class="css-yt-channel-vid-li-kp">CSS Introduction: Purpose of CSS in styling and formatting web pages.</li>
+                <li class="css-yt-channel-vid-li-kp">CSS Types:Explanation of three CSS types: inline, internal, and external.</li>
+                <li class="css-yt-channel-vid-li-kp">Styling Demo: Practical demonstration of CSS using background colors, height, and padding.</li>
+                <li class="css-yt-channel-vid-li-kp">Webpage Creation: Step-by-step creation of a webpage layout with header, products, about, and contact sections.</li>
+            </ul>
+
+            <h2 class="css-content-h2">Highlights:</h2>
+
+            <ul class="css-yt-channel-vid-ul-hl">
+                <li class="css-yt-channel-vid-li-hl">Hands-On Learning: Practical demonstration provides a hands-on approach for beginners.</li>
+                <li class="css-yt-channel-vid-li-hl">Webpage Structure: Emphasis on creating a structured webpage layout.</li>
+                <li class="css-yt-channel-vid-li-hl">Visual Styling: Use of background colors, height, and padding for visual appeal.</li>
+                <li class="css-yt-channel-vid-li-hl">Real-Life Example: Application of CSS to create specific sections like products and contact.</li>
+                <li class="css-yt-channel-vid-li-hl">Language Inclusivity: Tutorial conducted in Tamil for accessibility to a broader audience.</li>
+            </ul>
+
+            <h2 class="css-content-h2">Tamil Hacks 2.0 :</h2>
+
+            <iframe width="800" height="400" src="https://www.youtube.com/embed/P5YjskbxYIY?si=z0lD9akzyQukE6qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h2 class="css-content-h2">Key Points:</h2>
+
+            <ul class="css-yt-channel-vid-ul-kp">
+                <li class="css-yt-channel-vid-li-kp">Beginner Focus: Tutorial designed for CSS beginners.</li>
+                <li class="css-yt-channel-vid-li-kp">Comprehensive Guide: Provides a complete guide for learning CSS.</li>
+                <li class="css-yt-channel-vid-li-kp">HTML-CSS Connection: Emphasizes the connection between HTML and CSS.</li>
+                <li class="css-yt-channel-vid-li-kp">CSS File Creation: Explains the process of creating a CSS file.</li>
+                <li class="css-yt-channel-vid-li-kp">Styling Demo: Demonstrates applying styles to HTML elements, including a form.</li>
+            </ul>
+
+            <h2 class="css-content-h2">Highlights:</h2>
+
+            <ul class="css-yt-channel-vid-ul-hl">
+                <li class="css-yt-channel-vid-li-hl">Beginner-Friendly: Tailored for those new to CSS.</li>
+                <li class="css-yt-channel-vid-li-hl">Step-by-Step Guide: Offers a comprehensive and step-by-step learning experience.</li>
+                <li class="css-yt-channel-vid-li-hl">Practical Application: Demonstrates practical application by styling a form.</li>
+                <li class="css-yt-channel-vid-li-hl">Interactive Learning: Encourages hands-on learning through form styling and submission.</li>
+                <li class="css-yt-channel-vid-li-hl">HTML-CSS Integration: Highlights the importance of integrating CSS with HTML for effective web design.</li>
+            </ul>
+
+        </div>
+
+        <h1 class="css-content-h1">Hands-On Projects:</h1>
+
+    <div class="project-ideas">
+
+        <h2 class="css-content-h2">Project 1: Personal Portfolio</h2>
+
+        <p class="css-content-para"> <strong> Objective:</strong> Create a personal portfolio website to showcase skills, projects, and contact information.</p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home section with a brief introduction.</li>
+            <li class="css-projects-div-para-li">Sections for skills, projects, education, and contact details.</li>
+            <li class="css-projects-div-para-li">Responsive design for various screen sizes.</li>
+            <li class="css-projects-div-para-li">Use CSS for styling and layout.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 2: Product Landing Page</h2>
+
+        <p class="css-content-para"> <strong> Objective:</strong> Build a landing page for a fictional product or service.</p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home page with product/service details.</li>
+            <li class="css-projects-div-para-li">Sections for features, pricing, and a call-to-action.</li>
+            <li class="css-projects-div-para-li">Use CSS for styling, focusing on a visually appealing layout.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 3: Recipe Book</h2>
+
+        <p class="css-content-para"> <strong>Objective:</strong> Develop a recipe book website where users can explore and search for recipes. </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home page with featured recipes.</li>
+            <li class="css-projects-div-para-li">Recipe pages with ingredients, instructions, and images.</li>
+            <li class="css-projects-div-para-li">Search functionality for finding recipes.</li>
+            <li class="css-projects-div-para-li">Stylish recipe card layout using CSS.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 4: Travel Blog</h2>
+
+        <p class="css-content-para"> <strong>Objective:</strong> Create a travel blog website with information about different travel destinations. </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home page with featured destinations.</li>
+            <li class="css-projects-div-para-li">Individual pages for each destination with details and images.</li>
+            <li class="css-projects-div-para-li">Navigation menu for easy exploration.</li>
+            <li class="css-projects-div-para-li">Use CSS for styling, emphasizing a clean and engaging design.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 5: Online Resume</h2>
+
+        <p class="css-content-para"> <strong>Objective:</strong> Build an online resume website to showcase personal and professional details. </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Sections for education, work experience, skills, and contact information.</li>
+            <li class="css-projects-div-para-li">Stylish design using CSS for visual appeal.</li>
+            <li class="css-projects-div-para-li">Responsive layout for various devices.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 6: Event Countdown</h2>
+
+        <p class="css-content-para"> <strong>Objective:</strong> Develop a website for counting down to a future event. </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home page with a countdown timer.</li>
+            <li class="css-projects-div-para-li">Information about the upcoming event.</li>
+            <li class="css-projects-div-para-li">Stylish design with CSS, incorporating animations for a dynamic feel.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 7: News Magazine</h2>
+
+        <p class="css-content-para"> <strong>Objective:</strong> Build a news magazine website with sections for different categories. </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home page with featured news articles.</li>
+            <li class="css-projects-div-para-li">Sections for politics, technology, entertainment, etc.</li>
+            <li class="css-projects-div-para-li">Individual pages for each news article.</li>
+            <li class="css-projects-div-para-li">Use CSS for styling, focusing on a clean and readable design.</li>
+        </ul>
+
+        <h2 class="css-content-h2">Project 8: E-commerce Storefront</h2>
+
+        <p class="css-content-para"> <strong>Objective:</strong> Create a simple e-commerce storefront website. </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="css-projects-div-para-ul">
+            <li class="css-projects-div-para-li">Home page with featured products.</li>
+            <li class="css-projects-div-para-li">Product pages with details, images, and a shopping cart.</li>
+            <li class="css-projects-div-para-li">Use CSS for styling, prioritizing a user-friendly and visually appealing design.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+    <div class="quotes">
+        <hr>
+        <br>
+        <img src="Linus-image.png" alt="Linus Torvalds Quotes">
+        <h2 class="linus-quotes">Linus Torvalds</h2>
+        <p class="linus-quotes"> <strong> “Talk is cheap. Show me the code.” </strong> </p>
+        <br>
+        <hr>
+    </div>
+
+    <footer>
+        <nav class="footer-bar">
+
+        <div class="contact-list">
+            <strong>Contact :</strong>
+            <ul>
+               <a href="https://www.instagram.com/crazy_boy_kd_5310/?hl=en" target="_blank"> <li> <i class="fa-brands fa-instagram fa-beat fa-xl"></i> </li> </a>
+
+              <a href="https://www.facebook.com/profile.php?id=100035719731728" target="_blank"> <li> <i class="fa-brands fa-facebook fa-fade fa-xl"></i> </li> </a>
+
+              <a href="mailto:mdmurugan484@gmail.com" target="_blank"> <li> <i class="fa-regular fa-envelope fa-bounce fa-xl"></i> </li> </a>
+            </ul>
+        </div>
+
+        <div class="location-list">
+            <strong>Location :</strong>
+            <ul>
+              <a href="https://www.bing.com/search?pglt=171&q=cuddalore+map&cvid=ecafbfed078d411d85cb9a75ba09dffd&aqs=edge.0.0l9.6557j0j1&FORM=ANNTA1&PC=U531" target="_blank" style="text-decoration: none;"> <li>Cuddalore,TN_IN</li> </a>
+              <a href="https://www.bing.com/search?q=veppur+map&qs=n&form=QBRE&sp=-1&lq=0&pq=veppur+map&sc=9-10&sk=&cvid=998AFF3274C84896A2EE794158127F1A&ghsh=0&ghacc=0&ghpl=" target="_blank" style="text-decoration: none;"> <li>Veppur,TN_IN</li> </a>
+              <a href="https://www.bing.com/search?q=salem+map&qs=n&form=QBRE&sp=-1&lq=0&pq=salem+map&sc=11-9&sk=&cvid=19EFA93778524D319F3FB3C4580934AC&ghsh=0&ghacc=0&ghpl=" target="_blank" style="text-decoration: none;"> <li>Salem,TN_IN</li> </a>
+            </ul>
+        </div>
+
+        <div class="legal-list">
+            <strong>Legal :</strong>
+            <ul>
+              <a href="privacy.html" style="text-decoration: none;"> <li>Privacy Policy</li> </a>
+              <a href="terms.html" style="text-decoration: none;"> <li>Terms of Use</li> </a>
+              <a href="cookies.html" style="text-decoration: none;"> <li>Cookies Policy</li> </a>
+            </ul>
+        </div>
+        </nav>
+    </footer>
+
+</body> 
+</html>
+

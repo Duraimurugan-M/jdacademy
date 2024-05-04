@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+            background: linear-gradient(to right, #555, black, #555);
+            color: white;
+            text-align: center;
+            margin-top: 20%;
+            height: 100vh;
+        }
+
+.success-message {
+    font-size: 24px;
+    text-align: center;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.return-btn{
+    margin-top: 5%;
+}
+
+.return-btn button{
+    padding: 12px 13px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, black, #555, grey);  
+}
+
+.return-btn button:hover{
+    background: linear-gradient(to left, black, #555, grey);
+    border: 2px white solid;
+    transition: 5s;
+}
+
+.return-btn a{
+    text-decoration: none;
+}

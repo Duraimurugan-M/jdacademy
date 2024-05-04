@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page Title -->
+    <title>Sign Up Page | JD Academy</title>
+    <!-- Icon for Web Page -->
+    <link rel="icon" href="signup-icon.png">
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="signup.css">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/38ec2c4556.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-title">
+        <!-- Form Head Line NO:1 -->
+        <h1 class="form-head">Sign Up</h1>
+        <a href="index.html">
+        <i class="fa-solid fa-xmark fa-2xl"></i>
+        </a>
+        <br>
+        <br>
+    </div>
+
+    <div class="form-reg">
+        <form action="login.html">
+            <!-- First Name -->
+            <label for="first name">Enter Your First Name:</label>
+            <br>
+            <input class="input-clr" type="text" name="first-name" autofocus required>
+            <br>
+            <!-- Last Name -->
+            <label for="last name">Enter Your Last Name:</label>
+            <br>
+            <input class="input-clr" type="text" name="last-name" required>
+            <br>
+            <!-- Email -->
+            <label for="email">Enter Your Email:</label>
+            <br>
+            <input class="input-clr" type="email" name="email" required>
+            <br>
+            <!-- Password -->
+            <label for="password">Create a New Password:</label>
+            <br>
+            <input class="input-clr" type="password" name="password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,}$" 
+            title="At least 8 characters, including one uppercase letter, one lowercase letter, one digit, and one special character." required>
+            <br>
+            <br>
+            <input type="checkbox"  checked>  Email me with news and updates
+            <br>
+            <br>
+            <p class="signup-to-login">Already have an account? <span> <a href="login.html"> Login </a> </span> </p>
+            <!-- Submit Button -->
+            <input class="btn" type="submit" value="Submit">
+        </form>
+        <hr>
+        <div class="signup-policy">
+            By clicking the <strong> “Submit” </strong> button or using any of the social login options, you are creating an account, and agree to "JD Academy" <strong> <a href="terms.html"> Terms of Use</a> </strong> and <strong> <a href="privacy.html"> Privacy Policy</a> </strong>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Copyright 2023 JD Academy. All rights reserved. <a href="index.html">SiteMap</a></p>
+    </div>
+</body>
+</html>

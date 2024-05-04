@@ -1,0 +1,122 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #555, black, #555);
+    color: white;
+}
+
+/* Form Title */
+.form-title {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form-title i{
+    margin-left: 50%;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.form-head {
+    margin-top: -2%;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+/* Form Reg */
+.form-reg {
+    margin-left: 33%;
+}
+
+/* Input */
+.input-clr {
+    height: 30px;
+    width: 50%;
+    background-color: #555;
+    border: none;
+    margin: 10px 10px 10px 0px;
+    font-size: 20px;
+    padding: 0 0 0 5px;
+    color: white;
+}
+
+.signup-to-login a{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+}
+
+.signup-to-login a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Submit Button */
+.btn {
+    text-align: center;
+    margin: 5% 0% 3% 5%;
+    padding: 5px 15% 5px 15%;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    transition: 0.8s;
+}
+
+.signup-policy{
+    width: 50%;
+    margin-bottom: 8%;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.signup-policy a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup-policy a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+hr{
+    width: 60%;
+    margin-left: -5%;
+    margin-bottom: 3%;
+}
+
+.footer{
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to right, #555, black, #555);
+    height: 100px;
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: grey;
+}
+
+.footer p{
+    padding: 40px 0;
+    text-align: center;
+}

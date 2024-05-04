@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Title of Web Page -->
+    <title>JS Page | JD Academy</title>
+
+    <!-- Icon for Web Page -->
+    <link rel="icon" href="js-icon.png" />
+
+    <!-- FontAwsome Link -->
+    <script
+      src="https://kit.fontawesome.com/38ec2c4556.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google FOnts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="js.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="nav-bar">
+      <!-- Academy Name icon and Name -->
+      <a href="index.html">
+        <i id="clg-icon" class="fa-solid fa-graduation-cap">
+          <h1 class="nav-name">JD Academy</h1></i
+        >
+      </a>
+      <i id="nav-icon" class="fa-solid fa-bars"></i>
+      <!-- Un-order List for Nav Bar Options -->
+      <ul>
+        <a href="index.html">
+          <li class="unactive"><i class="fa-solid fa-house"></i> HOME</li>
+        </a>
+        <a href="html.html">
+          <li class="unactive"><i class="fa-brands fa-html5"></i> HTML</li>
+        </a>
+        <a href="css.html">
+          <li class="unactive"><i class="fa-brands fa-css3-alt"></i> CSS</li>
+        </a>
+        <a href="js.html">
+          <li class="active"><i class="fa-brands fa-js"></i> JAVASCRIPT</li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="top-nav-bar">
+      <input
+        type="text"
+        placeholder=" Welcome to JD Academy... "
+        spellcheck="true"
+      />
+    </div>
+
+    <div class="js-content">
+      <h1 class="js-content-h1">
+        Welcome to JD Academy - Unleashing the Power of Front-End Magic!
+      </h1>
+
+      <p class="js-content-head-para">
+        <strong>
+          Welcome to the HTML section of JD Academy! In this module, you'll
+          embark on a journey to master the fundamental language of the
+          web—HTML. As the backbone of every web page, HTML allows you to
+          structure content and create a seamless browsing experience for users.
+        </strong>
+      </p>
+
+      <img class="js-logo" src="js-logo.png" alt="JavaScript Image" />
+
+      <h1 class="js-content-h1">JavaScript( JS ):</h1>
+
+      <h2 class="js-content-h2">History:</h2>
+
+      <ul class="js-h-e-para-ul">
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Creation (1995):</strong> JavaScript was created by
+            <u> <b> Brendan Eich</b></u> at Netscape and was originally named
+            "Mocha" then "LiveScript" before settling on "JavaScript."
+          </p>
+        </li>
+
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Browser Wars (1995-2000):</strong> Microsoft's JScript and
+            Netscape's JavaScript competed during the browser wars, leading to
+            some fragmentation.
+          </p>
+        </li>
+
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>ECMAScript (1997-present):</strong> Efforts were made to
+            standardize JavaScript, leading to the creation of ECMAScript.
+            ECMAScript 6 (ES6) in 2015 introduced significant enhancements.
+          </p>
+        </li>
+      </ul>
+
+      <h2 class="js-content-h2">Evaluation:</h2>
+
+      <h3 class="css-content-h3">Advantages:</h3>
+
+      <ul class="js-h-e-para-ul">
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Client-Side Interactivity:</strong> JavaScript enables
+            dynamic, client-side interactivity.
+          </p>
+        </li>
+
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Asynchronous Programming: </strong> The introduction of
+            Promises and async/await in ES6 improved asynchronous programming.
+          </p>
+        </li>
+
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Full-Stack Development:</strong> JavaScript is now used on
+            both the client and server sides with technologies like Node.js.
+          </p>
+        </li>
+      </ul>
+
+      <h3 class="css-content-h3">Challenges:</h3>
+
+      <ul class="js-h-e-para-ul">
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Browser Compatibility:</strong> Ensuring cross-browser
+            compatibility remains a challenge.
+          </p>
+        </li>
+
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Security Concerns:</strong> Being executed on the client
+            side exposes JavaScript to security risks like cross-site scripting
+            (XSS).
+          </p>
+        </li>
+        <li class="js-h-e-para-li">
+          <p class="js-content-h-e-para">
+            <strong>Callback Hell:</strong> Prior to ES6, managing asynchronous
+            code could lead to callback hell. Modern solutions like Promises and
+            async/await have addressed this to some extent.
+          </p>
+        </li>
+      </ul>
+
+      <h2 class="js-content-h2">Chapter 1: Introduction to JavaScript</h2>
+
+      <h3 class="css-content-h3">Section 1.1: What is JavaScript?</h3>
+
+      <h2 class="js-content-h2">Definition:</h2>
+
+      <p class="js-content-para">
+        JavaScript is a versatile, high-level programming language primarily
+        used for building dynamic and interactive web pages. It allows
+        developers to manipulate the content, structure, and behavior of a
+        webpage.
+      </p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;h1&gt;Hello, JavaScript!&lt;/h1&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          console.log("Hello, JavaScript!");
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrqud5xj" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h3 class="css-content-h3">Section 1.2: Variables and Data Types</h3>
+
+      <h2 class="css-content-h3">Variables:</h2>
+
+      <p class="js-content-para">
+        Variables are containers for storing data. In JavaScript, you can use
+        <strong> 'var'</strong>, <strong> 'let'</strong>, or
+        <strong> 'const'</strong> to declare variables.
+      </p>
+
+      <h3 class="css-content-h3">Data Types:</h3>
+
+      <p class="js-content-para">
+        JavaScript supports various data types, including numbers, strings,
+        booleans, arrays, and objects.
+      </p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          var age = 25;
+          <br />
+          let name = "John";
+          <br />
+          const PI = 3.14;
+          <br />
+          var number = 42;
+          <br />
+          var text = "Hello, World!";
+          <br />
+          var isTrue = true;
+          <br />
+          var fruits = ['apple', 'banana', 'orange'];
+          <br />
+          var person = { name: 'John', age: 30 };
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrqv6rea" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h2 class="js-content-h2">Chapter 2: Control Flow and Functions</h2>
+
+      <h3 class="css-content-h3">Section 2.1: Conditional Statements</h3>
+
+      <h2 class="js-content-h2">if Statement:</h2>
+
+      <p class="js-content-para">
+        Used to execute a block of code if a specified condition is true.
+      </p>
+
+      <h2 class="js-content-h2">Switch Statement:</h2>
+
+      <p class="js-content-para">A multi-case decision-making structure.</p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          var age = 18;
+          <br />
+
+          if (age &gt;= 18) { console.log("You are an adult."); }
+          <br />
+          else {
+          <br />
+          console.log("You are a minor.");
+          <br />
+          }
+          <br />
+
+          var day = "Monday";
+          <br />
+
+          switch (day) {
+          <br />
+          case "Monday":
+          <br />
+          console.log("It's the start of the week."); break;
+          <br />
+          // ... other cases
+          <br />
+          }
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrqvqdpa" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h3 class="css-content-h3">Section 2.2: Loops</h3>
+
+      <h2 class="js-content-h2">for Loop:</h2>
+
+      <p class="js-content-para">
+        Executes a block of code a specified number of times.
+      </p>
+
+      <h2 class="js-content-h2">while Loop:</h2>
+
+      <p class="js-content-para">
+        Repeatedly executes a block of code as long as a specified condition is
+        true.
+      </p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          for (var i = 0; i &lt; 5; i++) {
+          <br />
+          console.log("Iteration: " + i); }
+          <br />
+
+          var count = 0;
+          <br />
+          while (count &lt; 3) {
+          <br />
+          console.log("Count: " + count);
+          <br />
+          count++;
+          <br />
+          }
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrqw476x" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h3 class="css-content-h3">Section 2.3: Functions</h3>
+
+      <h2 class="js-content-h2">Function Declaration:</h2>
+
+      <p class="js-content-para">
+        A set of instructions grouped together to perform a specific task.
+      </p>
+
+      <h2 class="js-content-h2">Arrow Function:</h2>
+
+      <p class="js-content-para">
+        A concise way to write functions in JavaScript.
+      </p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          function greet(name) { console.log("Hello, " + name + "!"); }
+          <br />
+
+          greet("John");
+          <br />
+
+          const square = (num) =&gt; num * num;
+          <br />
+          console.log(square(5));
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrr3zr3h" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h2 class="js-content-h2">Chapter 3: Working with the DOM</h2>
+
+      <h3 class="css-content-h3">Section 3.1: Introduction to the DOM</h3>
+
+      <h2 class="js-content-h2">Accessing Elements:</h2>
+
+      <p class="js-content-para">
+        Interacting with HTML elements using JavaScript.
+      </p>
+
+      <h2 class="js-content-h2">Manipulating Elements:</h2>
+
+      <p class="js-content-para">
+        Modifying the content and attributes of HTML elements.
+      </p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;h1 id="main-heading"&gt;Original Heading&lt;/h1&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          var heading = document.getElementById
+          <br />("main-heading");
+          <br />
+          heading.innerHTML = "New Heading";
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrr4u6dx" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h3 class="css-content-h3">Section 3.2: Event Handling</h3>
+
+      <h2 class="js-content-h2">Adding Event Listeners:</h2>
+
+      <p class="js-content-para">Responding to user actions on a webpage.</p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;button id="myButton"&gt;Click Me&lt;/button&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          var button = document.getElementById("myButton");
+          <br />
+          button.addEventListener("click", function() {
+          <br />
+          console.log("Button clicked!");
+          <br />
+          });
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrr55p86" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h2 class="js-content-h2">Chapter 4: Advanced JavaScript Concepts</h2>
+
+      <h3 class="css-content-h3">Section 4.1: Objects and Classes</h3>
+
+      <h2 class="js-content-h2">Object Creation:</h2>
+
+      <p class="js-content-para">Creating and working with objects.</p>
+
+      <h2 class="js-content-h2">Class Definition:</h2>
+
+      <p class="js-content-para">Defining and using classes in JavaScript.</p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          var car = {
+          <br />
+          brand: "Toyota",
+          <br />
+          model: "Camry",
+          <br />
+          year: 2022,
+          <br />
+          start: function() {
+          <br />
+          console.log("Engine started!");
+          <br />
+          }
+          <br />
+          };
+          <br />
+
+          class Animal {
+          <br />
+          constructor(name) {
+          <br />
+          this.name = name;
+          <br />
+          }
+          <br />
+
+          speak() {
+          <br />
+          console.log(this.name + " makes a sound.");
+          <br />
+          }
+          <br />
+          }
+          <br />
+
+          var dog = new Animal("Dog");
+          <br />
+          dog.speak();
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrr5g8re" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <h3 class="css-content-h3">Section 4.2: Asynchronous JavaScript</h3>
+
+      <h2 class="js-content-h2">Callback Functions:</h2>
+
+      <p class="js-content-para">
+        Handling asynchronous operations using callbacks.
+      </p>
+
+      <h2 class="js-content-h2">Promises:</h2>
+
+      <p class="js-content-para">Managing asynchronous tasks with promises.</p>
+
+      <div class="code-content">
+        <nav class="code-nav">
+          <h2>Example:</h2>
+        </nav>
+
+        <code class="css-content-code">
+          &lt;!DOCTYPE html&gt;
+          <br />
+          &lt;html lang="en"&gt;
+          <br />
+          &lt;head&gt;
+          <br />
+          &lt;meta charset="UTF-8"&gt;
+          <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"&gt;
+          <br />
+          &lt;style&gt;
+          <br />
+          /* Internal CSS code */
+          <br />
+          body { font-family: 'Arial', sans-serif; }
+          <br />
+          &lt;/style&gt;
+          <br />
+          &lt;/head&gt;
+          <br />
+          &lt;body&gt;
+          <br />
+          &lt;script&gt;
+          <br />
+          // Internal JavaScript code
+          <br />
+          function fetchData(callback) {
+          <br />
+          setTimeout(function() {
+          <br />
+          var data = "Fetched data";
+          <br />
+          callback(data);
+          <br />
+          }, 2000);
+          <br />
+          }
+          <br />
+
+          fetchData(function(result) {
+          <br />
+          console.log(result);
+          <br />
+          });
+          <br />
+
+          function fetchDataPromise() {
+          <br />
+          return new Promise(function(resolve, reject) {
+          <br />
+          setTimeout(function() {
+          <br />
+          var data = "Fetched data";
+          <br />
+          resolve(data);
+          <br />
+          }, 2000);
+          <br />
+          });
+          <br />
+          }
+          <br />
+
+          fetchDataPromise()
+          <br />
+          .then(function(result) {
+          <br />
+          console.log(result);
+          <br />
+          })
+          <br />
+          .catch(function(error) {
+          <br />
+          console.error(error);
+          <br />
+          });
+          <br />
+          &lt;/script&gt;
+          <br />
+          &lt;/body&gt;
+          <br />
+          &lt;/html&gt;
+        </code>
+
+        <nav class="code-nav">
+          <a href="https://onecompiler.com/html/3zrr5u4mu" target="_blank">
+            <button>Try it Yourself</button>
+          </a>
+        </nav>
+      </div>
+
+      <div class="js-book-div">
+        <h1 class="js-content-h1">Download JavaScript Book Now</h1>
+
+        <h1 class="js-content-h1">JavaScript</h1>
+
+        <h2 class="js-content-h2">Notes for Professionals</h2>
+
+        <img
+          class="js-book-logo"
+          src="JavaScript.png"
+          alt="This is JavaScript book"
+        />
+        <br />
+        <a href="The JavaScript Handbook.pdf" download>
+          <button>Download Now</button>
+        </a>
+      </div>
+
+      <div class="js-yt-channel-div">
+        <h1 class="js-content-h1">YouTube Channels To learn JS:</h1>
+        <ul class="js-yt-channel-name-ul">
+          <li class="js-yt-channel-name-li">
+            <a href="https://www.youtube.com/@ErrorMakesClever" target="_blank">
+              Error Makes Clever Academy
+            </a>
+          </li>
+          <li class="js-yt-channel-name-li">
+            <a href="https://www.youtube.com/@tutorjoes" target="_blank">
+              Tutor Joe's Stanley
+            </a>
+          </li>
+          <li class="js-yt-channel-name-li">
+            <a href="https://www.youtube.com/@TamilHacks20" target="_blank">
+              Tamil Hacks 2.0
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="js-yt-channel-vid-div">
+        <h1 class="js-content-h1">Channel's for JS Videos</h1>
+
+        <h2 class="js-content-h2">Error Makes Clever Academy :</h2>
+
+        <iframe
+          width="800"
+          height="400"
+          src="https://www.youtube.com/embed/poo0BXryffI?si=Y1DQ0glMDXgTlxOM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <h2 class="js-content-h2">Key Points:</h2>
+
+        <ul class="js-yt-channel-vid-ul-kp">
+          <li class="js-yt-channel-vid-li-kp">
+            JavaScript crash course with a focus on beginners in Tamil.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            JavaScript is the world's most popular programming language.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Variables, data types, and operators in JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Introduction to constants in JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Function scope and global scope in JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Basic programming concepts, including loops and conditional
+            statements.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Overview of the Document Object Model (DOM).
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Selecting HTML elements using IDs in JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Manipulating HTML content and handling events using JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Creation of a mini project involving HTML, CSS, and JavaScript for
+            adding and deleting books.
+          </li>
+        </ul>
+
+        <h1 class="js-content-h2">Highlights</h1>
+
+        <ul class="js-yt-channel-vid-ul-hl">
+          <li class="js-yt-channel-vid-li-hl">
+            JavaScript's prominence and ease of learning emphasized.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Distinction between Java and JavaScript clarified.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Practical application through a mini project in JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Focus on key concepts such as variables, data types, and functions.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            In-depth coverage of DOM and its manipulation.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Use of conditional statements and loops in programming.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Hands-on experience with event handling and dynamic content updates.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Integration of HTML, CSS, and JavaScript for a comprehensive
+            project.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Introduction to random numbers and user input handling in
+            JavaScript.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Clear separation of key points for easy understanding and reference.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Tutor Joe's Stanley :</h2>
+
+        <iframe
+          width="800"
+          height="400"
+          src="https://www.youtube.com/embed/dBUBYz75gdk?si=nwxt5a6qOTuiQk8s"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <h2 class="js-content-h2">Key Points:</h2>
+
+        <ul class="js-yt-channel-vid-ul-kp">
+          <li class="js-yt-channel-vid-li-kp">
+            Tutorial title: "JavaScript Complete Tutorial in Tamil | Tutor Joes
+            | Full Stack Web Development".
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Visual Studio Code and language code setup for JavaScript
+            development.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Console.log for output and debugging.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Variable declarations and various data types: numbers, strings,
+            symbols.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Mathematical operations, rounding off, and usage of mathematical
+            functions.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Conditional statements, logical operators, and decision-making.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Functions, function parameters, and return statements.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Arrays and array methods (push, slice), and introduction to objects.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Looping structures: for loops and while loops.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Concepts like classes, arrow functions, and JSON.stringify.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Highlights:</h2>
+
+        <ul class="js-yt-channel-vid-ul-hl">
+          <li class="js-yt-channel-vid-li-hl">
+            Emphasis on hands-on coding with examples.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Practical usage of console.log for debugging.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            In-depth coverage of data types and their applications.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Clear explanation of mathematical operations and functions.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Comprehensive understanding of conditional statements and loops.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Practical implementation of functions and their parameters.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Exploration of arrays and array methods for effective data
+            manipulation.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Introduction to key concepts like classes and arrow functions.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Practical use of Visual Studio Code for a seamless development
+            experience.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Integration of Tamil language in the tutorial for a personalized
+            touch.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Tamil Hacks 2.0 :</h2>
+
+        <iframe
+          width="800"
+          height="400"
+          src="https://www.youtube.com/embed/cnDhKzlfDgA?si=czrSPXrvOt31zXks"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <h2 class="js-content-h2">Key Points:</h2>
+
+        <ul class="js-yt-channel-vid-ul-kp">
+          <li class="js-yt-channel-vid-li-kp">
+            Tamil Hacks 2.0 Learn JavaScript in Tamil" by Tamil hacks.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Tailored for Tamil speakers, providing a comprehensive guide.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Beginner to advance focus for a complete JavaScript learning
+            experience.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            This videos suggest a daily, structured learning approach.
+          </li>
+          <li class="js-yt-channel-vid-li-kp">
+            Step-by-step teaching style for a thorough understanding.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Highlights:</h2>
+
+        <ul class="js-yt-channel-vid-ul-hl">
+          <li class="js-yt-channel-vid-li-hl">
+            Language-specific: Tutorial conducted entirely in Tamil.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Practical approach: Likely includes coding exercises for hands-on
+            learning.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Progressive structure: Starts with basics, advances to complex
+            concepts.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Complete resource: Aiming for mastery from beginner to advanced
+            levels.
+          </li>
+          <li class="js-yt-channel-vid-li-hl">
+            Ideal for target audience: Tamil-speaking individuals seeking a
+            well-structured JavaScript tutorial.
+          </li>
+        </ul>
+      </div>
+
+      <div class="project-ideas">
+        <h1 class="js-content-h1">Hands-On Projects:</h1>
+
+        <h2 class="js-content-h2">Project 1: Interactive Quiz App</h2>
+
+        <p class="js-content-para">
+          <strong>Objective:</strong> Create an interactive quiz application
+          with multiple-choice questions.
+        </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="js-projects-div-para-ul">
+          <li class="js-projects-div-para-li">
+            Questions and options dynamically loaded from JavaScript.
+          </li>
+          <li class="js-projects-div-para-li">Track and display the score.</li>
+          <li class="js-projects-div-para-li">
+            Use of event listeners for user interactions.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Project 2: To-Do List</h2>
+
+        <p class="js-content-para">
+          <strong>Objective:</strong> Build a to-do list application with the
+          ability to add, edit, and delete tasks.
+        </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="js-projects-div-para-ul">
+          <li class="js-projects-div-para-li">
+            Dynamic rendering of tasks using JavaScript.
+          </li>
+          <li class="js-projects-div-para-li">User input and validation.</li>
+          <li class="js-projects-div-para-li">
+            Local storage to persist tasks.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Project 3: Image Slider</h2>
+
+        <p class="js-content-para">
+          <strong>Objective:</strong> Develop an image slider that automatically
+          cycles through a set of images.
+        </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="js-projects-div-para-ul">
+          <li class="js-projects-div-para-li">
+            Display images with next and previous buttons.
+          </li>
+          <li class="js-projects-div-para-li">
+            Automatic image transition after a set interval.
+          </li>
+          <li class="js-projects-div-para-li">
+            Pause and resume functionality.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Project 4: Weather App</h2>
+
+        <p class="js-content-para">
+          <strong>Objective:</strong> Create a weather application that fetches
+          and displays weather information based on user input.
+        </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="js-projects-div-para-ul">
+          <li class="js-projects-div-para-li">
+            Use a weather API to get real-time data.
+          </li>
+          <li class="js-projects-div-para-li">
+            Display temperature, weather conditions, and location.
+          </li>
+          <li class="js-projects-div-para-li">
+            User-friendly interface with CSS styling.
+          </li>
+        </ul>
+
+        <h2 class="js-content-h2">Project 5: Memory Game</h2>
+
+        <p class="js-content-para">
+          <strong>Objective:</strong> Build a classic memory game where users
+          match pairs of cards.
+        </p>
+
+        <h3 class="css-content-h3">Features:</h3>
+
+        <ul class="js-projects-div-para-ul">
+          <li class="js-projects-div-para-li">
+            Dynamically generate a grid of cards.
+          </li>
+          <li class="js-projects-div-para-li">
+            Shuffle card positions on each game start.
+          </li>
+          <li class="js-projects-div-para-li">
+            Implement card flipping and matching logic.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="quotes">
+      <hr />
+      <br />
+      <img src="Brian-quotes-image.png" alt="Brian Kernighan Quotes" />
+      <h2 class="brian-quotes">Brian Kernighan</h2>
+      <p class="brian-quotes">
+        <strong> “Don't comment bad code - rewrite it.” </strong>
+      </p>
+      <br />
+      <hr />
+    </div>
+
+    <footer>
+      <nav class="footer-bar">
+        <div class="contact-list">
+          <strong>Contact :</strong>
+          <ul>
+            <a
+              href="https://www.instagram.com/crazy_boy_kd_5310/?hl=en"
+              target="_blank"
+            >
+              <li><i class="fa-brands fa-instagram fa-beat fa-xl"></i></li>
+            </a>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100035719731728"
+              target="_blank"
+            >
+              <li><i class="fa-brands fa-facebook fa-fade fa-xl"></i></li>
+            </a>
+
+            <a href="mailto:mdmurugan484@gmail.com" target="_blank">
+              <li><i class="fa-regular fa-envelope fa-bounce fa-xl"></i></li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="location-list">
+          <strong>Location :</strong>
+          <ul>
+            <a
+              href="https://www.bing.com/search?pglt=171&q=cuddalore+map&cvid=ecafbfed078d411d85cb9a75ba09dffd&aqs=edge.0.0l9.6557j0j1&FORM=ANNTA1&PC=U531"
+              target="_blank"
+              style="text-decoration: none"
+            >
+              <li>Cuddalore,TN_IN</li>
+            </a>
+            <a
+              href="https://www.bing.com/search?q=veppur+map&qs=n&form=QBRE&sp=-1&lq=0&pq=veppur+map&sc=9-10&sk=&cvid=998AFF3274C84896A2EE794158127F1A&ghsh=0&ghacc=0&ghpl="
+              target="_blank"
+              style="text-decoration: none"
+            >
+              <li>Veppur,TN_IN</li>
+            </a>
+            <a
+              href="https://www.bing.com/search?q=salem+map&qs=n&form=QBRE&sp=-1&lq=0&pq=salem+map&sc=11-9&sk=&cvid=19EFA93778524D319F3FB3C4580934AC&ghsh=0&ghacc=0&ghpl="
+              target="_blank"
+              style="text-decoration: none"
+            >
+              <li>Salem,TN_IN</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="legal-list">
+          <strong>Legal :</strong>
+          <ul>
+            <a href="privacy.html" style="text-decoration: none">
+              <li>Privacy Policy</li>
+            </a>
+            <a href="terms.html" style="text-decoration: none">
+              <li>Terms of Use</li>
+            </a>
+            <a href="cookies.html" style="text-decoration: none">
+              <li>Cookies Policy</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
